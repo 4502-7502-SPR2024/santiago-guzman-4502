@@ -25,6 +25,8 @@ img {
   display: block;
   margin: 0 auto;
   border: none; 
+  width: 200px,
+  height: 200px
 }
 
 p {
