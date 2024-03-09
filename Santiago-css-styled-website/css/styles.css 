@@ -7,6 +7,7 @@ body, html {
   background-color: #f0f0f0;
 }
 
+
 .container {
   max-width: 800px;
   margin: 0 auto;
@@ -24,8 +25,8 @@ h1 {
 img {
   margin: 0;
   border: none; 
-  height: 20px;
-  width: 50%;
+  height: 2px;
+  width: 5%;
   padding-top: 5px;
   padding-right: 5px;
   padding-bottom: 5px;
