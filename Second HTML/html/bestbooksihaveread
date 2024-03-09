@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Best Books I Have Ever Read</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f8eb; 
+        }
+        
+        .montserrat-<uniquifier> {
+  			font-family: "Montserrat", sans-serif;
+  			font-optical-sizing: auto;
+  			font-weight: <weight>;
+  			font-style: normal;
+		}
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #f9f8eb;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        
+        h2 {
+            color: #555;
+        }
+        
+        ol {
+            list-style-type: none;
+            padding: 0;
+        }
+        
+        li {
+            margin-bottom: 20px;
+            border-bottom: 1px solid #ccc;
+            padding-bottom: 20px;
+        }
+        
+        .book-info {
+            margin-left: 20px;
+        }
+        
+        img {
+            max-width: 100%;
+            text-align: center;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+        
+        @media only screen and (max-width: 600px) {
+            .container {
+                max-width: 90%;
+                margin: 10px auto;
+                padding: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Best Books I Have Ever Read</h1>
+        <h2>Since I was very young, my dad never objected to buying a great book. He could say “no” to get some candies or Hotwheels, but he never said “no” to a book. He encouraged me to dive into books and let them teach me about life. Little I knew that these books would impact the way I see myself and my surroundings, configuring the way I behave and analyze complex situations. From Latin American literature to self-help books, this is the compilation I will always recommend reading.</h2>
+        <ol>
+            <li>
+                <h2>The Rebellion of the Rats</h2>
+                <img src="img/placeholder.jpg" alt="The Rebellion of the Rats">
+                <div class="book-info">
+                    <p><strong>Year of Publication:</strong> 1968</p>
+                    <p><strong>Author:</strong> Fernando Soto Aparicio</p>
+                    <p><strong>Synopsis:</strong> "The Rebellion of the Rats" (La Rebelión de las Ratas) is a novel by Colombian author Fernando Soto Aparicio. Set in Bogotá, Colombia, the novel portrays the struggle of impoverished workers against a corrupt and oppressive society. It delves into themes of social injustice, exploitation, and the quest for dignity.</p>
+                </div>
+            </li>
+            <li>
+                <h2>Cuando Pase al Otro Lado del Muro</h2>
+                <img src="img/placeholder.jpg" alt="Cuando Pase al Otro Lado del Muro">
+                <div class="book-info">
+                    <p><strong>Year of Publication:</strong> 2021</p>
+                    <p><strong>Author:</strong> Unknown</p>
+                    <p><strong>Synopsis:</strong> Unfortunately, without more information, I can't provide a specific synopsis for this book. If you have additional details about the author or the plot, I'd be happy to help further.</p>
+                </div>
+            </li>
+            <li>
+                <h2>The Picture of Dorian Gray</h2>
+                <img src="img/doriangray.jpeg" alt="The Picture of Dorian Gray">
+                <div class="book-info">
+                    <p><strong>Year of Publication:</strong> 1890</p>
+                    <p><strong>Author:</strong> Oscar Wilde</p>
+                    <p><strong>Synopsis:</strong> "The Picture of Dorian Gray" is a philosophical novel by Oscar Wilde. It tells the story of a young man named Dorian Gray who remains youthful and beautiful while a portrait of him ages and reflects his moral corruption. The novel explores themes of vanity, hedonism, and the consequences of one's actions.</p>
+                </div>
+            </li>
+            <li>
+                <h2>Las Malas</h2>
+                <img src="img/lasmalas.jpeg" alt="Las Malas">
+                <div class="book-info">
+                    <p><strong>Year of Publication:</strong> 2019</p>
+                    <p><strong>Author:</strong> Camila Sosa Villada</p>
+                    <p><strong>Synopsis:</strong> "Las Malas" is a novel by Argentine author Camila Sosa Villada. The book follows the lives of transgender women who work as sex workers in the city of Córdoba, Argentina. It explores their struggles, relationships, and dreams, offering a powerful portrayal of resilience and survival in the face of societal prejudice and discrimination.</p>
+                </div>
+            </li>
+            <li>
+                <h2>Los Goles de Juancho</h2>
+                <img src="img/losgolesdejuancho.jpeg" alt="Los Goles de Juancho">
+                <div class="book-info">
+                    <p><strong>Year of Publication:</strong> 2010</p>
+                    <p><strong>Author:</strong> Margarita Londoño</p>
+                    <p><strong>Synopsis:</strong> "Los Goles de Juancho" is a children's book by Colombian author Margarita Londoño. The story revolves around a young boy named Juancho who dreams of becoming a soccer star. Through determination and hard work, Juancho learns valuable lessons about teamwork, friendship, and the importance of chasing one's dreams.</p>
+                </div>
+            </li>
+            <li>
+                <h2>My Name is Stilton, Geronimo Stilton</h2>
+                <img src="img/mynameisstilton.jpeg" alt="My Name is Stilton, Geronimo Stilton">
+                <div class="book-info">
+                    <p><strong>Year of Publication:</strong> 2000</p>
+                    <p><strong>Author:</strong> Elisabetta Dami</p>
+                    <p><strong>Synopsis:</strong> "My Name is Stilton, Geronimo Stilton" is the first book in the Geronimo Stilton series, written by Italian author Elisabetta Dami. It follows the adventures of Geronimo Stilton, a mouse who works as a journalist and editor for the fictional newspaper, The Rodent's Gazette. The series combines humor, adventure, and education, targeting young readers.</p>
+                </div>
+            </li
+        </ol>
+    </div>
+</body>
+</html>
