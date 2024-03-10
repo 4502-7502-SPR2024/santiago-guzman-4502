@@ -69,12 +69,15 @@
 		.footer-links {
 		    text-align: center;
 		    margin-top: 20px;
-		    justify-content: space-between;
+		    flex-direction: column;
+        align-items: center;
 		}
 
 		.footer-link {
 		    display: inline-flex; 
 		    margin: 0 10px;
+		    flex-direction: column;
+        align-items: center;
 		}
 
 		.box {
@@ -109,11 +112,24 @@
 		}
 
 		@media only screen and (max-width: 600px) {
-		    .container {
-		        max-width: 90%;
+    .navigation-boxes {
+        flex-direction: column;
+        align-items: center;
+    }
+
+		@media only screen and (max-width: 555px) {
+		    .footer-link {
+		        display: block;
 		        margin: 10px auto;
-		        padding: 10px;
 		    }
+		}
+
+		@media only screen and (min-width: 556px) and (max-width: 800px) {
+		    .footer-link {
+		        display: inline-block;
+		        margin: 0 10px;
+		    }
+		}
 
 		    .navigation-boxes {
 		        flex-direction: column;
