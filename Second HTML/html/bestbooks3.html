@@ -10,6 +10,7 @@
     <style>
         body {
             font-family: Montserrat;
+            color: #5f4e3e;
             weight: 100;
             margin: 0;
             padding: 0;
@@ -29,13 +30,20 @@
         	font-family: Montserrat;
             text-align: center;
             weight: 500;
-            color: black;
+            color: #4b3826;
         }
 
         h2 {
         	font-family: Montserrat;
+        	weight: 100;
+            color: #736457;
+            font-size: 100%; 
+        }
+
+        h3 {
+        	font-family: Montserrat;
         	weight: 400;
-            color: #555;
+            color: sandybrown;
             font-size: 1.2rem; 
         }
 
@@ -57,29 +65,91 @@
             height: auto;
             margin-right: 20px; 
         }
+ 
+		.footer-links {
+		    text-align: center;
+		    margin-top: 20px;
+		    justify-content: space-between;
+		}
+
+		.footer-link {
+		    display: inline-flex; 
+		    margin: 0 10px;
+		}
+
+		.box {
+		    background-color: #f9f8eb;
+		    border: 2px solid #5f4e3e;
+		    border-radius: 5px;
+		    padding: 10px;
+		}
 
         .book-info {
             flex: 1; 
         }
 
-        @media only screen and (max-width: 600px) {
-            .container {
-                max-width: 90%;
-                margin: 10px auto;
-                padding: 10px;
-            }
-        }
+		.navigation-boxes {
+		    display: flex;
+		    justify-content: space-between;
+		    padding: 20px;
+		    background-color: #f9f8eb;
+		}
+
+		.navigation-box {
+		    flex: 1;
+		    margin-right: 10px;
+		    text-align: center;
+		    background-color: #ccc;
+		    border-radius: 5px;
+		}
+
+		.navigation-box p {
+		    margin: 0;
+		    padding: 10px;
+		}
+
+		@media only screen and (max-width: 600px) {
+		    .container {
+		        max-width: 90%;
+		        margin: 10px auto;
+		        padding: 10px;
+		    }
+
+		    .navigation-boxes {
+		        flex-direction: column;
+		        align-items: center;
+		    }
+
+		    .navigation-box {
+		        margin: 10px 0;
+		    }
+		}
     </style>
 </head>
 <body>
+
+
     <div class="container">
         <h1>Best Books I Have Ever Read</h1>
         <h2>Since I was very young, my dad never objected to buying a great book. He could say “no” to get some candies or Hotwheels, but he never said “no” to a book. He encouraged me to dive into books and let them teach me about life. Little I knew that these books would impact the way I see myself and my surroundings, configuring the way I behave and analyze complex situations. From Latin American literature to self-help books, this is the compilation I will always recommend reading.</h2>
+
+        <div class="navigation-boxes">
+        <div class="navigation-box">
+            <p>Contact</p>
+        </div>
+        <div class="navigation-box">
+            <p>More Lists</p>
+        </div>
+        <div class="navigation-box">
+            <p>Amazon wishlist</p>
+        </div>
+    </div>
+    
         <ol>
             <li>
                 <img src="img/placeholder.jpg" alt="The Rebellion of the Rats">
                 <div class="book-info">
-                    <h2>The Rebellion of the Rats</h2>
+                    <h3>The Rebellion of the Rats</h3>
                     <p><strong>Year of Publication:</strong> 1968</p>
                     <p><strong>Author:</strong> Fernando Soto Aparicio</p>
                     <p><strong>Synopsis:</strong> "The Rebellion of the Rats" (La Rebelión de las Ratas) is a novel by Colombian author Fernando Soto Aparicio. Set in Bogotá, Colombia, the novel portrays the struggle of impoverished workers against a corrupt and oppressive society. It delves into themes of social injustice, exploitation, and the quest for dignity.</p>
@@ -88,7 +158,7 @@
             <li>
                 <img src="img/placeholder.jpg" alt="Cuando Pase al Otro Lado del Muro">
                 <div class="book-info">
-                    <h2>Cuando Pase al Otro Lado del Muro</h2>
+                    <h3>Cuando Pase al Otro Lado del Muro</h3>
                     <p><strong>Year of Publication:</strong> 2021</p>
                     <p><strong>Author:</strong> William Sutcliffe</p>
                     <p><strong>Synopsis:</strong> Unfortunately, without more information, I can't provide a specific synopsis for this book. If you have additional details about the author or the plot, I'd be happy to help further.</p>
@@ -97,7 +167,7 @@
             <li>
                 <img src="img/doriangray.jpeg" alt="The Picture of Dorian Gray">
                 <div class="book-info">
-                    <h2>The Picture of Dorian Gray</h2>
+                    <h3>The Picture of Dorian Gray</h3>
                     <p><strong>Year of Publication:</strong> 1890</p>
                     <p><strong>Author:</strong> Oscar Wilde</p>
                     <p><strong>Synopsis:</strong> "The Picture of Dorian Gray" is a philosophical novel by Oscar Wilde. It tells the story of a young man named Dorian Gray who remains youthful and beautiful while a portrait of him ages and reflects his moral corruption. The novel explores themes of vanity, hedonism, and the consequences of one's actions.</p>
@@ -105,8 +175,8 @@
             </li>
             <li>
 			    <img src="img/lasmalas.jpeg" alt="Las Malas">
-			    <div class="book-info" style="margin-left: 20px;">
-			        <h2>Las Malas</h2>
+			    <div class="book-info">
+			        <h3>Las Malas</h3>
 			        <p><strong>Year of Publication:</strong> 2019</p>
 			        <p><strong>Author:</strong> Camila Sosa Villada</p>
 			        <p><strong>Synopsis:</strong> "Las Malas" is a novel by Argentine author Camila Sosa Villada. The book follows the lives of transgender women who work as sex workers in the city of Córdoba, Argentina. It explores their struggles, relationships, and dreams, offering a powerful portrayal of resilience and survival in the face of societal prejudice and discrimination.</p>
@@ -115,7 +185,7 @@
             <li>
                 <img src="img/losgolesdejuancho.jpeg" alt="Los Goles de Juancho">
                 <div class="book-info">
-                    <h2>Los Goles de Juancho</h2>
+                    <h3>Los Goles de Juancho</h3>
                     <p><strong>Year of Publication:</strong> 2010</p>
                     <p><strong>Author:</strong> Margarita Londoño</p>
                     <p><strong>Synopsis:</strong> "Los Goles de Juancho" is a children's book by Colombian author Margarita Londoño. The story revolves around a young boy named Juancho who dreams of becoming a soccer star. Through determination and hard work, Juancho learns valuable lessons about teamwork, friendship, and the importance of chasing one's dreams.</p>
@@ -124,7 +194,7 @@
             <li>
 		    <img src="img/mynameisstilton.jpeg" alt="My Name is Stilton, Geronimo Stilton">
 		    <div class="book-info">
-		        <h2>My Name is Stilton, Geronimo Stilton</h2>
+		        <h3>My Name is Stilton, Geronimo Stilton</h3>
 		        <p><strong>Year of Publication:</strong> 2000</p>
 		        <p><strong>Author:</strong> Elisabetta Dami</p>
 		        <p><strong>Synopsis:</strong> "My Name is Stilton, Geronimo Stilton" is the first book in the Geronimo Stilton series, written by Italian author Elisabetta Dami. It follows the adventures of Geronimo Stilton, a mouse who works as a journalist and editor for the fictional newspaper, The Rodent's Gazette. The series combines humor, adventure, and education, targeting young readers.</p>
@@ -133,7 +203,7 @@
 		<li>
 		    <img src="img/percyjackson.jpeg" alt="Percy Jackson & The Lightning Thief">
 		    <div class="book-info">
-		        <h2>Percy Jackson & The Lightning Thief</h2>
+		        <h3>Percy Jackson & The Lightning Thief</h3>
 		        <p><strong>Year of Publication:</strong> 2005</p>
 		        <p><strong>Author:</strong> Rick Riordan</p>
 		        <p><strong>Synopsis:</strong> "Percy Jackson & The Lightning Thief" is the first book in the Percy Jackson & The Olympians series by American author Rick Riordan. It follows the adventures of Percy Jackson, a young boy who discovers he is a demigod, the son of Poseidon, and embarks on a quest to prevent a war among the gods. The series blends elements of Greek mythology with contemporary settings and humor.</p>
@@ -142,29 +212,52 @@
 		<li>
 		    <img src="img/richdadpoordad.jpeg" alt="Rich Dad, Poor Dad">
 		    <div class="book-info">
-		        <h2>Rich Dad, Poor Dad</h2>
+		        <h3>Rich Dad, Poor Dad</h3>
 		        <p><strong>Year of Publication:</strong> 1997</p>
 		        <p><strong>Author:</strong> Robert T. Kiyosaki</p>
 		        <p><strong>Synopsis:</strong> "Rich Dad, Poor Dad" is a personal finance book by Robert T. Kiyosaki. It explores the author's upbringing with two father figures: his biological father (referred to as "poor dad") and the father of his childhood friend (referred to as "rich dad"). Through their differing financial philosophies and lessons, Kiyosaki imparts insights on building wealth, investing, and achieving financial independence.</p>
 		    </div>
 		</li>
         </ol>
-    </div>
 
-     <div class="container">
-        <!-- Existing content -->
-    </div>
+    
 
-    <div class="navigation-boxes">
-        <div class="navigation-box">
-            <p>Contact</p>
+    <div class="footer-links">
+        <div class="footer-link">
+            <a href="https://www.dbrl.org/locations-hours/columbia-public-library" style="color: #5f4e3e;" target="_blank">
+                <div class="box">
+                    Get these books in your local bookstore.
+                </div>
+            </a>
         </div>
-        <div class="navigation-box">
-            <p>More Lists</p>
-        </div>
-        <div class="navigation-box">
-            <p>Return to the Top</p>
+        <div class="footer-link">
+            <a href="mailto:sagych@umsystem.edu" style="color: #5f4e3e;">
+                <div class="box">
+                    <img src="img/email-icon.png" alt="Email Icon" style="vertical-align: middle; margin-right: 10px;">
+                    Email me all your book suggestions!
+                </div>
+            </a>
         </div>
     </div>
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
