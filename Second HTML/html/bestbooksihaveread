@@ -125,6 +125,24 @@
                     <p><strong>Synopsis:</strong> "My Name is Stilton, Geronimo Stilton" is the first book in the Geronimo Stilton series, written by Italian author Elisabetta Dami. It follows the adventures of Geronimo Stilton, a mouse who works as a journalist and editor for the fictional newspaper, The Rodent's Gazette. The series combines humor, adventure, and education, targeting young readers.</p>
                 </div>
             </li
+            <li>
+                <h2>Percy Jackson, The Lightning Thief</h2>
+                <img src="img/percyjackson.jpeg" alt="Percy Jackson">
+                <div class="book-info">
+                    <p><strong>Year of Publication:</strong> 2005</p>
+                    <p><strong>Author:</strong> Rick Riordan</p>
+                    <p><strong>Synopsis:</strong> "Percy Jackson & The Lightning Thief" is the first book in the Percy Jackson & The Olympians series by American author Rick Riordan. It follows the adventures of Percy Jackson, a young boy who discovers he is a demigod, the son of Poseidon, and embarks on a quest to prevent a war among the gods. The series blends elements of Greek mythology with contemporary settings and humor.</p>
+                </div>
+            </li
+            <li>
+                <h2>Rich Dad Poor Dad</h2>
+                <img src="img/richdadpoordad.jpeg" alt="Rich Dad Poor Dad">
+                <div class="book-info">
+                    <p><strong>Year of Publication:</strong> 1997</p>
+                    <p><strong>Author:</strong> Robert T. Kiyosaki</p>
+                    <p><strong>Synopsis:</strong> "The Last Lecture" is a memoir by Randy Pausch, a computer science professor at Carnegie Mellon University. The book is based on a lecture Pausch gave, titled "Really Achieving Your Childhood Dreams," after being diagnosed with terminal cancer. In it, he reflects on his life, shares wisdom, and imparts lessons on achieving one's goals and finding fulfillment, even in the face of adversity.</p>
+                </div>
+            </li
         </ol>
     </div>
 </body>
