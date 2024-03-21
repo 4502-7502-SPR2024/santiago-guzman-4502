@@ -43,7 +43,7 @@ li {
     align-items: center;
 }
 
-.book-info {
+.movie-info {
     margin-left: 20px;
     flex-grow: 1;
 }
