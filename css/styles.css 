@@ -1,6 +1,32 @@
-styles.css
+"/* Resetting default list styles */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+/* Navbar styles */
+nav {
+    background-color: #333; /* Background color */
+}
+/* Navbar links */
+nav ul {
+    display: flex; /* Arrange items in a row */
+}
+nav li {
+    margin-right: 15px; /* Add space between list items */
+}
+nav a {
+    color: white; /* Text color */
+    text-decoration: none; /* Remove underline */
+    padding: 10px 15px; /* Padding around text */
+    display: inline-block; /* Make them block elements */
+}
+/* Change link color on hover */
+nav a:hover {
+    color: yellow;
+}"
 
-body, html {
+body  {
   margin: 0;
   padding: 0;
   font-family: 'Roboto', sans-serif;
@@ -26,7 +52,7 @@ img {
   margin: 0;
   border: none; 
   height: 2px;
-  width: 5%;
+  width: 100%;
   padding-top: 5px;
   padding-right: 5px;
   padding-bottom: 5px;
