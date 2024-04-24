@@ -39,19 +39,31 @@
 
 
 body {
-  background-color: black;
-  overflow: scroll; /* Show scrollbars */
+ 
+  overflow: scroll; 
+  background-color: #121212;
 }
 
 
 
 nav {
 
-  background-color: whitesmoke;
+  
   max-width: 800px;
   margin: auto;
   font-size: 1.5em;
-  border-radius: 0.2rem;
+  flex: 1;
+  text-align: center;
+  border-radius: 5px;
+}
+
+}
+nav a {
+    margin: 0;
+    padding: 10px;
+    color: white; 
+background-color: #336699;
+color: yellow;
 }
 
 nav ul {
@@ -96,9 +108,7 @@ nav ul li a:hover {
   
 }*/
 
-a:hover {
 
-}
 
 
 main {
@@ -120,7 +130,6 @@ footer {
   font-family: 'Playfair Display', serif;
   font-weight: 100;
   color: seagreen;
-/*  background-color: whitesmoke;*/
   max-width: 800px;
   margin: auto;
   
@@ -131,6 +140,7 @@ h1 {
   font-family: 'Playfair Display', serif;
   font-weight: 900;
   margin: 1rem;
+  color: whitesmoke;
 }
 
 h2 {
@@ -141,7 +151,6 @@ h2 {
 h3 {
   font-family: 'IBM+Plex', monospace;
 
-/*This is a note*/
 }
 
 
@@ -153,6 +162,7 @@ h4 {
 
 p {
   font-family: 'IBM Plex Sans', sans-serif;
+  color: whitesmoke;
 }
 
 
@@ -180,7 +190,7 @@ button_previous {  }
 .stepper {  }
 
 button {
-  background-color: orange;
+  background-color: #336699;
   margin: 1rem;
   padding: 1rem;
   min-width: 10rem;
@@ -597,22 +607,37 @@ img {
 h1 {
   font-weight: 700;
   text-decoration: underline 2rem solid gold;
+  color: whitesmoke;
 }
 
 h2 {
   font-weight: 500;
   font-size: 2.3rem;
+  color: whitesmoke;
 }
 
 p {
   font-size: 1.5rem;
+  color: whitesmoke;
   }
 
 nav {
-  background-color: rgba(255, 255, 255, 0.0);
-  max-width: 100%px;
-  font-size: 1rem;
+    flex: 1;
+    margin-right: 10px;
+    text-align: center;
+    
+    border-radius: 5px;
+
 }
+nav a {
+    margin: 0;
+    padding: 10px;
+    color: white; 
+background-color: #336699;
+}
+nav a:hover {
+    color: yellow;
+}"
 
 nav ul {
   display: flex;
@@ -694,10 +719,7 @@ nav ul li a {
 }
 
 
-@media screen and (min-width:501px){
-  body {
-    background-color: #67a0e5;
-}
+@media screen and (min-width:501px)
 
 
 
@@ -722,10 +744,5 @@ nav ul li a {
 
 
 
-  body {
 
-  background-color: skyblue;
-}
-
-  }
 

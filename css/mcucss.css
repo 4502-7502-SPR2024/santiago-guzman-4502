@@ -85,6 +85,9 @@ nav a {
     color: white; 
 background-color: #336699;
 }
+nav a:hover {
+    color: yellow;
+}"
 
 .movie-info {
     margin-left: 20px;

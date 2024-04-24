@@ -30,7 +30,7 @@ body  {
   margin: 0;
   padding: 0;
   font-family: 'Roboto', sans-serif;
-  background-color: #f0f0f0;
+  background-color: #121212;
 }
 
 
@@ -62,7 +62,7 @@ img {
 p {
   font-size: 16px;
   line-height: 1.6;
-  color: #666; 
+  color: whitesmoke; 
 }
 
 ul {
@@ -70,9 +70,21 @@ ul {
   padding: 0;
 }
 
-nav ul {
-  padding: 0;
+nav {
+    flex: 1;
+    margin-right: 10px;
+    text-align: center;
+    
+    border-radius: 5px;
+
 }
+nav a {
+    margin: 0;
+    padding: 10px;
+    color: white; 
+background-color: #336699;
+}
+
 
 nav ul li {
   display: block;
