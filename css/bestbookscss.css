@@ -7,6 +7,22 @@
             padding: 0;
             background-color: #f9f8eb;
         }
+.navigation {
+  display: flex;
+  justify-content: center;
+  background-color: #336699;
+  padding: 10px 0;
+}
+
+.navigation a {
+  padding: 10px 20px;
+  margin: 0 10px;
+  transition: background-color 0.3s ease;
+}
+
+.navigation a:hover {
+  background-color: yellow;
+}
 
         .container {
             max-width: 800px;
